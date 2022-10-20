@@ -1380,3 +1380,9 @@ ul.b {
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
+/* Table  */
+
+.td-border{
+    border: 1px solid #2196f3;
+}
