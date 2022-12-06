@@ -835,17 +835,7 @@ a {
 
 }
 
-.box-me2 {
-    /* background-color: rgba(255,255,255,0.85); */
-    border-style: solid;
-    border-width: 0;
-    background-clip: border-box;
-    border-color: #7fcfcf;
-    border-top-width: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 
-}
 
 .image-me {
     border-radius: 50%;
@@ -1421,4 +1411,16 @@ ul.b {
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0px 5px 6px -6px black;
    
+}
+
+.box-me2 {
+    background-color: #f0f0f0 !important;
+    border-style: solid;
+    border-width: 0;
+    background-clip: border-box;
+    border-color: #0e2640;
+    border-top-width: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
