@@ -45,7 +45,26 @@
       $("#footer").load("/partials/footer.html");
     });
   </script>
-
+ <script>
+  function myFunction() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
 </head>
 
 <body>
@@ -182,7 +201,7 @@
       <div class="grid-container">
 
 
-        <div class="grid-row grid-gap-5">
+        <div class="grid-row ">
           <div class="tablet:grid-col-12 ">
             <h1 class="font-heading-xl text-dark-gray f48-700 ">
               Tour Calendar
@@ -326,26 +345,7 @@
 
             </table>
 
-            <script>
-              function myFunction() {
-                var input, filter, table, tr, td, i, txtValue;
-                input = document.getElementById("myInput");
-                filter = input.value.toUpperCase();
-                table = document.getElementById("myTable");
-                tr = table.getElementsByTagName("tr");
-                for (i = 0; i < tr.length; i++) {
-                  td = tr[i].getElementsByTagName("td")[0];
-                  if (td) {
-                    txtValue = td.textContent || td.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                      tr[i].style.display = "";
-                    } else {
-                      tr[i].style.display = "none";
-                    }
-                  }
-                }
-              }
-            </script>
+           
 
 
 
