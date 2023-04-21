@@ -1424,3 +1424,16 @@ ul.b {
     border-bottom-right-radius: 10px;
 
 }
+
+
+/* text over image  */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .adele-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
