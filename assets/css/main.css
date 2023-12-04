@@ -1324,11 +1324,11 @@ ul.b {
 
 /* table- input  */
 #myInput {
-    
+
     width: 100%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
-    
+
     margin-bottom: 12px;
 }
 
@@ -1373,14 +1373,14 @@ ul.b {
 
 /* Table  */
 
-.td-border{
+.td-border {
     border: 1px solid #2196f3;
 }
 
 
 
 /* fellowsip-page  */
-.fellow-boxes{
+.fellow-boxes {
     min-height: 180px;
     font-family: "Museo Sans Bold", sans-serif;
     line-height: 35px;
@@ -1402,15 +1402,15 @@ ul.b {
     color: #002746 !important;
 }
 
-.wrapper-me:hover  {
-       
-         
+.wrapper-me:hover {
+
+
     transform: translateY(-10px);
     transition: all 0.3s;
-     -webkit-box-shadow: 0px 5px 6px -6px black;
+    -webkit-box-shadow: 0px 5px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0px 5px 6px -6px black;
-   
+
 }
 
 .box-me2 {
@@ -1431,9 +1431,30 @@ ul.b {
     position: absolute;
     top: 8px;
     left: 16px;
-  }
-  .adele-container {
+}
+
+.adele-container {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
+
+
+/* how to apply page fellows boxes  */
+
+.apply-fellow {
+
+    background: rgb(232 236 243 / 33%);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: Museo Sans Bold, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    color: #002746 !important;
+    
+}
